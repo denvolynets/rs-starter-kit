@@ -1,5 +1,6 @@
 // JS polyfill
-import 'core-js';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 
 // NPM packages
 import 'magnific-popup/dist/jquery.magnific-popup.min';

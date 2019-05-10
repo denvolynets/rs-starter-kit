@@ -16,7 +16,6 @@
 		"@babel/core": "^7.4.4",
 		"@babel/parser": "^7.3.4",
 		"@babel/plugin-syntax-dynamic-import": "^7.2.0",
-		"@babel/plugin-transform-object-assign": "^7.2.0",
 		"@babel/preset-env": "^7.4.4",
 		"acorn": "^6.1.1",
 		"acorn-dynamic-import": "^4.0.0",
@@ -26,7 +25,6 @@
 		"babel-plugin-webpack-async-module-name": "^1.0.2",
 		"clean-webpack-plugin": "^2.0.1",
 		"copy-webpack-plugin": "^4.6.0",
-		"core-js": "^3.0.0",
 		"css-loader": "^2.1.0",
 		"eslint": "^4.19.1",
 		"eslint-loader": "^2.1.1",
@@ -81,5 +79,9 @@
 	"browserslist": [
 		"> 1%",
 		"last 2 versions"
-	]
+	],
+	"dependencies": {
+		"core-js": "^3.0.1",
+		"regenerator-runtime": "^0.13.2"
+	}
 }

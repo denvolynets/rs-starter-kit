@@ -1,4 +1,12 @@
 {
-  "presets": ["@babel/preset-env"],
-  "plugins": ["@babel/plugin-transform-object-assign", "@babel/plugin-syntax-dynamic-import", "webpack-async-module-name"]
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "corejs": 3
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-syntax-dynamic-import", "webpack-async-module-name"]
 }
