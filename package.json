@@ -80,7 +80,7 @@
 		"yargs": "^12.0.5"
 	},
 	"optionalDependencies": {
-		"jquery": "^3.3.1",
+		"jquery": "^3.5.0",
 		"inputmask": "^4.0.6",
 		"jquery-validation": "^1.19.0"
 	},
